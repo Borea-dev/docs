@@ -43,7 +43,7 @@
 				{
 					"anchor": "Roadmap",
 					"href": "https://borea.dev/roadmap",
-					"icon": "road-barrier"
+					"icon": "road"
 				},
 				{
 					"anchor": "Blog",
@@ -78,6 +78,7 @@
 		"socials": {
 			"x": "https://x.com/borea_dev",
 			"github": "https://github.com/Borea-dev",
+			"discord": "https://discord.com/invite/qpdxeF6wrK",
 			"linkedin": "https://www.linkedin.com/company/borea-dev"
 		}
 	}
