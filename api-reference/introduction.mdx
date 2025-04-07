@@ -1,35 +1,21 @@
 ---
 title: 'Introduction'
-description: 'Example section for showcasing API endpoints'
+description: "The full reference for Borea's public API"
 ---
 
-<Note>
-	Our API is undergoing rapid and often breaking changes. We recommend using our CLI for your implementation as they
-	are developed in tandem to prevent drift.
-</Note>
+{/* <Note>
+    Our API is undergoing rapid and often breaking changes. We recommend using our CLI so you won't encounter breaking changes.
+</Note> */}
 
-## Welcome
+<Warning>
+	Our Public API is not published yet. Please use the <a href='/quickstart'>CLI</a> instead.
+</Warning>
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and
-[MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the
-following OpenAPI specification.
-
-<Card
-	title='Plant Store Endpoints'
-	icon='leaf'
-	href='https://github.com/mintlify/starter/blob/main/api-reference/openapi.json'
->
+<Card title='OpenAPI Spec' icon='compass' href='/'>
 	View the OpenAPI specification file
 </Card>
 
 ## Authentication
 
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
-
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
-```
+All API endpoints are authenticated using Bearer tokens specified either in the `borea.config.json`, or as arguments
+passed to the CLI.
